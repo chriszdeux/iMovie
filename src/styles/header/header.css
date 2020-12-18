@@ -1,0 +1,41 @@
+header {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  /* height: 650px; */
+}
+
+.navbar {
+  display: flex;
+  /* top: 0; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__list {
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+}
+
+.navbar--icon {
+  font-size: var(--large-size);
+  color: var(--logo-color);
+}
+
+.navbar__list .navbar--list--item {
+  margin: 10px;
+}
+
+.navbar__icons {
+  display: flex;
+  align-items: center;
+}
+.navbar .navbar--icons--item {
+  margin: 10px;
+  font-size: var(--large-size);
+}
+
+ion-icon {
+  font-size: var(--large-size);
+}

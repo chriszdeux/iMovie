@@ -1,9 +1,12 @@
 import React from 'react'
+import { Header } from './components/header/Header'
+import { Hero } from './components/hero/Hero'
 
 export const IMovie = () => {
   return (
     <>
-      <h1>iMovie</h1>
+      < Header />
+      < Hero />
     </>
   )
 }

@@ -1,0 +1,20 @@
+:root {
+  /* COLORS */
+  --dark-blue-color: #1B262C;
+  --hard-blue-color: #0F4C75;
+  --soft-blue-color: #3282B8;
+  --light-blue-color: #BBE1FA;
+  --font-color: #fdfdfd;
+  --logo-color: #892CDC;
+  
+  /* FONT */
+  --large-size: 2rem;
+  --medium-size: 1.6rem;
+  --small-size: 1.3rem;
+  --width-spacing: 0.5rem;
+  --height-spacing: 2rem;
+
+  /* GRAPHICS */
+  --cover-opacity: 0.7;
+  --divider-opacity: 0.8; 
+}

@@ -1,0 +1,28 @@
+@import './variables.css';
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: 'Sunflower', sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--dark-blue-color);
+  font-size: var(--medium-size  );
+  color: var(--font-color);
+
+}
+
+ul, li, ol {
+  list-style: none;
+}
+hr {
+  border: 1px solid var(--hard-blue-color);
+  box-shadow: 0 0 5px 3px var(--dark-blue-color);
+  opacity: 0.3;
+}
