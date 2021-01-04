@@ -19,7 +19,7 @@ header {
 }
 
 .navbar--icon {
-  font-size: var(--large-size);
+  font-size: var(--extra-large-size);
   color: var(--logo-color);
 }
 
@@ -37,5 +37,5 @@ header {
 }
 
 ion-icon {
-  font-size: var(--large-size);
+  font-size: var(--extra-large-size);
 }

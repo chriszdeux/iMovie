@@ -6,15 +6,21 @@
   --light-blue-color: #BBE1FA;
   --font-color: #fdfdfd;
   --logo-color: #892CDC;
+  --shadow-color: #182227;
+  --shadow: '0 5px 5px rgba(0,0,0,.25)';
   
   /* FONT */
-  --large-size: 2rem;
-  --medium-size: 1.6rem;
-  --small-size: 1.3rem;
+  --large-size: 2.5rem;
+  --medium-size: 1.8rem;
+  --small-size: 1.6rem;
+  --small: 1.4rem;
   --width-spacing: 0.5rem;
   --height-spacing: 2rem;
 
+  /* ICONS */
+  --extra-large: 3.5rem;
+
   /* GRAPHICS */
-  --cover-opacity: 0.7;
-  --divider-opacity: 0.8; 
+  --cover-opacity: 0.8;
+  --divider-opacity: 0.9; 
 }

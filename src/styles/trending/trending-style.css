@@ -1,0 +1,63 @@
+/* @import '../variables.css'; */
+.trending {
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.trending p {
+  position: absolute;
+  width: 100px;
+  /* height: 100px; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* right: calc(50% - 300px); */
+  font-weight: 300;
+  font-size: var(--large-size);
+  text-shadow: 0px 5px 5px rgba(0, 0 ,0, 0.8) ;
+  z-index: 1;
+}
+
+.trending__content {
+  /* display: inline; */
+  display: flex;
+  width: 100%;
+  height: 170px;
+  overflow: auto;
+  /* white-space: nowrap; */
+
+  /* background-color: var(--light-blue-color); */
+}
+
+.trending__card {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100px;
+  height: 150px;
+  margin: 10px;
+  /* text-align: center; */
+}
+.trending__card img {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: top;
+  /* transform-origin: center; */
+  border: 2px solid var(--soft-blue-color);
+  border-radius: 50%;
+  box-shadow: 0px 5px 5px rgba(0, 0 ,0, 0.25);
+  opacity: var(--cover-opacity);
+}
+
+.trending__card p {
+  position: absolute;
+  bottom: 20px;
+  font-size: var(--small);
+  /* text-align: center; */
+  font-weight: 300;
+  text-shadow: 0px 5px 5px rgba(0, 0 ,0, 0.8);
+  /* bottom: -20px; */
+}
